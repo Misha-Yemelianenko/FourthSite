@@ -1,0 +1,462 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+html {
+  scroll-behavior: smooth; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  min-width: 1900px;
+  font-family: "Palatino Linotype", "Book Antiqua"; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+A:link {
+  text-decoration: none; }
+
+A:visited {
+  text-decoration: none; }
+
+A:active {
+  text-decoration: none; }
+
+A:hover {
+  text-decoration: none;
+  color: white;
+  /* ╨ж╨▓╨╡╤В ╤Б╤Б╤Л╨╗╨║╨╕ */ }
+
+.first-cont {
+  background: url(img/bg-imgs/bg-img-1.jpg) no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%; }
+  .first-cont .nav {
+    margin-top: 15px;
+    position: relative; }
+    .first-cont .nav .brand p {
+      color: #0daeae;
+      font-size: 30px;
+      line-height: 70%;
+      margin-top: 20px;
+      margin-left: 10px; }
+    .first-cont .nav .nav-links {
+      color: #fff;
+      position: absolute;
+      right: 0;
+      top: 60%;
+      transform: translateY(-50%); }
+      .first-cont .nav .nav-links #active-item {
+        color: #0daeae; }
+      .first-cont .nav .nav-links a {
+        color: #fff;
+        text-decoration: none; }
+      .first-cont .nav .nav-links a:hover {
+        color: #0daeae; }
+      .first-cont .nav .nav-links .item {
+        font-weight: bold;
+        padding: 5px; }
+  .first-cont .slider {
+    margin-top: 190px; }
+    .first-cont .slider .HR-first {
+      border: 1px solid #0daeae;
+      margin-bottom: 30px; }
+    .first-cont .slider h2 {
+      margin-bottom: 30px;
+      font-family: "Playfair";
+      font-weight: 700; }
+    .first-cont .slider p {
+      font-size: 14px;
+      margin-bottom: 55px; }
+    .first-cont .slider .btn-Learn {
+      border: 1px solid #0daeae;
+      background-color: Transparent;
+      width: 120px;
+      height: 40px;
+      border-radius: 3px;
+      color: #0daeae;
+      font-size: 16px;
+      outline: none;
+      font-weight: 550;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      margin-bottom: 210px; }
+      .first-cont .slider .btn-Learn:hover {
+        border: none;
+        background-color: #0daeae;
+        color: white; }
+
+.second-cont {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+  .second-cont .left-block img {
+    margin-top: 7%; }
+  .second-cont .right-block h2 {
+    font-family: "PlayfairDislpay";
+    margin-bottom: 30px;
+    font-weight: 700; }
+  .second-cont .right-block p {
+    color: #413d4b;
+    margin-bottom: 35px; }
+  .second-cont .right-block .btn-Learn {
+    border: 1px solid #0daeae;
+    background-color: Transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    color: #0daeae;
+    font-size: 16px;
+    outline: none;
+    font-weight: 550; }
+    .second-cont .right-block .btn-Learn:hover {
+      border: none;
+      background-color: #0daeae;
+      color: white; }
+
+.third-cont {
+  background: url(img/bg-imgs/bg-img-2.jpg) no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  height: 550px;
+  position: relative; }
+  .third-cont .watch {
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .third-cont .watch .play-video {
+      margin-left: 20px;
+      border: 1px solid #FFF;
+      height: 105px;
+      width: 105px;
+      border-radius: 50%;
+      position: relative;
+      margin-bottom: 30px; }
+      .third-cont .watch .play-video img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%, -50%); }
+
+.fourth-cont .title-info {
+  margin-top: 70px; }
+  .fourth-cont .title-info h2, .fourth-cont .title-info p {
+    font-family: "PlayfairDislpay"; }
+  .fourth-cont .title-info p {
+    color: #2f2d35; }
+  .fourth-cont .title-info hr {
+    width: 50px;
+    border: 2px solod #c6c4c9; }
+.fourth-cont .about-company {
+  margin-top: 25px;
+  margin-bottom: 70px; }
+  .fourth-cont .about-company .merits {
+    height: 250px;
+    border: 1px solid #ebebeb; }
+    .fourth-cont .about-company .merits img {
+      margin-top: 35px;
+      margin-bottom: 40px; }
+  .fourth-cont .about-company .merits-1, .fourth-cont .about-company .merits-2, .fourth-cont .about-company .merits-3 {
+    border-top: none; }
+  .fourth-cont .about-company .merits-1, .fourth-cont .about-company .merits-4 {
+    border-left: none; }
+  .fourth-cont .about-company .merits-4, .fourth-cont .about-company .merits-5, .fourth-cont .about-company .merits-6 {
+    border-bottom: none; }
+  .fourth-cont .about-company .merits-3, .fourth-cont .about-company .merits-6 {
+    border-right: none; }
+  .fourth-cont .about-company h2 {
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-weight: 700; }
+
+.fifth-cont {
+  background: url(img/bg-imgs/bg-img-3.jpg) no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  height: 750px;
+  padding-top: 70px; }
+  .fifth-cont .title-info {
+    font-family: "PlayfairDislpay"; }
+    .fifth-cont .title-info hr {
+      border: 1px solid #655b80;
+      width: 55px;
+      margin-bottom: 50px; }
+  .fifth-cont .staff .people .photo {
+    height: 250px;
+    background-color: #f5f4f6;
+    position: relative; }
+    .fifth-cont .staff .people .photo .hover-effect {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-color: black;
+      opacity: 0;
+      transition: 0.7s;
+      padding-top: 100px; }
+      .fifth-cont .staff .people .photo .hover-effect:hover {
+        opacity: 0.3; }
+  .fifth-cont .staff .people .people-info {
+    padding-top: 15px;
+    border: 1px solid #77758b;
+    height: 80px; }
+    .fifth-cont .staff .people .people-info p {
+      margin: 0;
+      padding: 0;
+      font-weight: 600; }
+  .fifth-cont .infoANDbtn {
+    margin-top: 70px; }
+    .fifth-cont .infoANDbtn p {
+      color: #f3f3f3; }
+    .fifth-cont .infoANDbtn button {
+      border: 1px solid #0daeae;
+      background-color: Transparent;
+      width: 120px;
+      height: 40px;
+      border-radius: 3px;
+      color: #0daeae;
+      font-size: 16px;
+      outline: none;
+      font-weight: 550;
+      width: 140px; }
+      .fifth-cont .infoANDbtn button:hover {
+        border: none;
+        background-color: #0daeae;
+        color: white; }
+
+.sixth-cont .first-box h2 {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-family: "PlayfairDislpay";
+  font-weight: 550; }
+.sixth-cont .second-box a {
+  color: black;
+  text-decoration: none; }
+  .sixth-cont .second-box a:hover {
+    color: #0daeae; }
+.sixth-cont .second-box p {
+  margin-top: 70px;
+  margin-bottom: 70px; }
+  .sixth-cont .second-box p span {
+    font-size: 18px; }
+
+.seventh-cont .block-with-work {
+  height: 220px; }
+.seventh-cont .silver-1 {
+  background-color: #8a8a8a; }
+.seventh-cont .silver-2 {
+  background-color: #a1a1a1; }
+.seventh-cont .silver-3 {
+  background-color: #acacac; }
+.seventh-cont .silver-4 {
+  background-color: #b6b6b6; }
+.seventh-cont .silver-5 {
+  background-color: #a4a4a4; }
+
+.eighth-cont button {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border: 1px solid #0daeae;
+  background-color: Transparent;
+  width: 120px;
+  height: 40px;
+  border-radius: 3px;
+  color: #0daeae;
+  font-size: 16px;
+  outline: none;
+  font-weight: 550;
+  width: 140px; }
+  .eighth-cont button:hover {
+    border: none;
+    background-color: #0daeae;
+    color: white; }
+
+.tenth-cont {
+  background: url(img/bg-imgs/bg-img-4.jpg) no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  height: 550px;
+  padding-top: 70px; }
+  .tenth-cont .info {
+    font-family: 'PlayfairDisplay'; }
+    .tenth-cont .info h2 {
+      font-size: 100px;
+      font-weight: 600; }
+  .tenth-cont .slider {
+    margin-top: 100px; }
+  .tenth-cont img {
+    width: 45px;
+    height: 45px;
+    margin: 5px; }
+  .tenth-cont .active {
+    width: 75px;
+    height: 75px; }
+  .tenth-cont .next, .tenth-cont .prev {
+    color: #9a92ac;
+    font-size: 50px;
+    background-color: transparent;
+    border: none; }
+
+.eleventh-cont {
+  height: 750px;
+  padding-top: 70px;
+  padding-bottom: 70px; }
+  .eleventh-cont .form-block h2 {
+    font-family: "PlayfairDislpay";
+    font-weight: 600;
+    margin-bottom: 40px; }
+  .eleventh-cont .form-block form input, .eleventh-cont .form-block form textarea {
+    padding-left: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid #e5e5e5;
+    margin-bottom: 25px; }
+  .eleventh-cont .form-block form textarea {
+    height: 200px;
+    outline: none;
+    resize: none; }
+  .eleventh-cont .form-block form button {
+    border: 1px solid #0daeae;
+    background-color: Transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    color: #0daeae;
+    font-size: 16px;
+    outline: none;
+    font-weight: 550; }
+    .eleventh-cont .form-block form button:hover {
+      border: none;
+      background-color: #0daeae;
+      color: white; }
+  .eleventh-cont .happy-client {
+    padding-left: 85px; }
+    .eleventh-cont .happy-client h2 {
+      font-family: "PlayfairDislpay";
+      font-weight: 600;
+      margin-bottom: 50px; }
+    .eleventh-cont .happy-client img {
+      margin-bottom: 50px; }
+
+footer {
+  background: url(img/bg-imgs/bg-img-5.jpg) no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  height: 470px;
+  padding-top: 100px;
+  padding-bottom: 70px; }
+  footer a {
+    color: white;
+    text-decoration: none; }
+    footer a:hover {
+      text-decoration: none;
+      color: #0daeae; }
+  footer .brand {
+    margin-bottom: 30px; }
+    footer .brand p {
+      color: #0daeae;
+      font-size: 30px;
+      line-height: 50%;
+      margin-top: 20px;
+      margin-left: 10px; }
+  footer .footer-text {
+    margin-bottom: 85px; }
+  footer .footer-block-second {
+    padding-top: 20px;
+    padding-left: 50px; }
+    footer .footer-block-second .geolacation {
+      margin-top: 33px; }
+      footer .footer-block-second .geolacation img {
+        margin-top: 4px;
+        width: 14px;
+        height: 19px;
+        margin-right: 17px; }
+    footer .footer-block-second .phone img {
+      width: 17px;
+      height: 17px;
+      margin-top: 4px;
+      margin-right: 17px; }
+  footer .footer-block-third {
+    padding-top: 20px;
+    padding-left: 30px; }
+    footer .footer-block-third .Subscribe {
+      margin-top: 40px; }
+      footer .footer-block-third .Subscribe .sub-input {
+        height: 45px;
+        border: 2px solid #9a92ac;
+        background: transparent; }
+      footer .footer-block-third .Subscribe .btn-sub {
+        background-color: #a099b3;
+        height: 45px;
+        opacity: 0.7;
+        position: relative; }
+        footer .footer-block-third .Subscribe .btn-sub img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          opacity: 1; }
+  footer .social {
+    margin-top: 28px; }
+    footer .social .forSocial {
+      border: 1px solid #fff;
+      width: 35px;
+      height: 35px;
+      position: relative;
+      border-radius: 20px;
+      margin: 5px; }
+      footer .social .forSocial img {
+        height: 11px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-45%, -50%); }
+  footer .Creative {
+    margin-top: 70px; }
+
+/*# sourceMappingURL=style.css.map */
